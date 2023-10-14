@@ -60,4 +60,4 @@ sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
 [[ -e Plus ]] && rm Plus
-wget ssh.pw5g.com.br/script/${arch}/Plus && chmod 777 Plus && ./Plus
+wget github.com/PhoenixxZ2023/SSHPLUS-UNY/script/${arch}/Plus && chmod 777 Plus && ./Plus
